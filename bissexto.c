@@ -10,7 +10,10 @@ int main() {
         printf("%d é bissexto!\n", ano);
     } else {
         printf("%d não é bissexto.\n", ano);
-    }
+    } if (ano <= 0) {
+    printf("Ano inválido!\n");
+    return 1;
+}
 
     return 0;
 }
